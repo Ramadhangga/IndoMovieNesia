@@ -1,6 +1,5 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl422.indomovienesia;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -71,12 +70,6 @@ public class MainActivity extends AppCompatActivity implements SourceAdapter.ISo
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.ic_about) {
-
-            Intent intent = new Intent(this, AboutActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(intent);
-        }
 
         return super.onOptionsItemSelected(item);
     }
