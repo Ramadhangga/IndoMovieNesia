@@ -2,7 +2,7 @@
 
 Aplikasi : IndoMovieNesia
 
-Link APK Release : https://drive.google.com/open?id=0B2k-tBnow1joQWJ4RFFYbUVuVjQ
+Link APK Release : https://drive.google.com/open?id=0B2k-tBnow1joVm9JWmdpRWluYXM
 
 Identitas :
 
@@ -22,10 +22,11 @@ Alamat API yang digunakan : https://www.themoviedb.org/documentation/api
 
 Navigasi yang digunakan : Navigation Tabs (Action Bar Tabs (with ViewPager)) 
 
-Library dari Local Database : -
+Library dari Local Database : SQLite
 
 Deskripsi singkat : Aplikasi ini merupakan aplikasi yang menggunakan API untuk menampilkan 
 data tentang film yang sekarang tayang, populer, film yang memiliki rate tertinggi, dan film yang akan tayang.
+Aplikasi ini dapat menampilkan gambar, judul, dan penjelasan dari film.Aplikasi ini menggunakan API The Movie Database untuk mengambil data film.
 
 Kelebihan : User Interface yang menarik dan tidak membosankan, mudah digunakan.
 
